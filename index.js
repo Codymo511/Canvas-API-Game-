@@ -12,3 +12,7 @@ const render = Render.create ({
 });
 Render.run(render);
 Runner.run(Runner.create(), engine);
+
+const shape = Bodies.rectangle(200,200,50,50, {
+    isStatic:true
+})
